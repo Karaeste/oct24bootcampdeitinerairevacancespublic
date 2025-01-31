@@ -8,8 +8,9 @@ Nous étions 3 sur ce projet:
 - https://github.com/Oaz
 - https://github.com/Karaeste
 
-● L’objectif du projet est la création d’une application permettant de
+Objectif du projet:
+- L’objectif du projet est la création d’une application permettant de
 proposer un itinéraire selon certains critères.
-● L’utilisateur de l’application choisit des zones / points d’intérêt à visiter
+- L’utilisateur de l’application choisit des zones / points d’intérêt à visiter
 lors de son prochain voyage, lui propose un itinéraire détaillé
 optimisant son temps de voyage et de séjour.
