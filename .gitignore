@@ -1,0 +1,21 @@
+.idea
+# Ignorer l'environnement virtuel et le cache
+/venv
+.venv
+**/__pycache__
+
+# Ignorer les variables d'environnement
+**/.env
+
+# Ignorer tous les fichiers de données
+**/raw_archive
+**/*.zip
+**/data
+**/*.json
+# On conserve le fichier de définition du Dashboard Grafana dans git
+!dashboard.json
+**/*.jsonld
+**/*.csv
+
+# Ignorer les fichiers de logs Airflow
+airflow/logs

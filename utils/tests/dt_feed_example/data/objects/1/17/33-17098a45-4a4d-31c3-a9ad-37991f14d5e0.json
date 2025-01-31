@@ -1,0 +1,668 @@
+{
+  "@id": "https://data.datatourisme.fr/33/17098a45-4a4d-31c3-a9ad-37991f14d5e0",
+  "dc:identifier": "FMAMID031V50XVYF",
+  "schema:endDate": [
+    "2025-01-23",
+    "2025-02-06",
+    "2025-03-06",
+    "2025-03-27"
+  ],
+  "schema:startDate": [
+    "2025-01-23",
+    "2025-02-06",
+    "2025-03-06",
+    "2025-03-27"
+  ],
+  "@type": [
+    "schema:Event",
+    "EntertainmentAndEvent",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein schreckliches Drama hat sich im Jakobinerkloster ereignet und die Lösung dieses Geheimnisses liegt auf deinen Schultern und denen deines Teams!"
+    ],
+    "en": [
+      "A terrible tragedy has occurred at the Jacobins convent, and solving the mystery rests on the shoulders of you and your team!"
+    ],
+    "it": [
+      "Una terribile tragedia si è verificata nel convento dei Giacobini e la soluzione del mistero è affidata a voi e alla vostra squadra!"
+    ],
+    "fr": [
+      "Un drame terrible s’est produit au couvent des Jacobins et la résolution de ce mystère repose sur vos épaules et celle de votre équipe !"
+    ],
+    "es": [
+      "Una terrible tragedia ha ocurrido en el convento de los Jacobinos y resolver el misterio depende de ti y de tu equipo"
+    ],
+    "nl": [
+      "Er heeft zich een vreselijke tragedie afgespeeld in het Jacobijnenklooster en het oplossen van het mysterie rust op de schouders van jou en je team!"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "MEURTRE AUX JACOBINS"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/603b11b8-9a04-3ce4-ad2d-edd22cda9eb3",
+    "schema:legalName": "COMITE DEPARTEMENTAL DU TOURISME DE LA HAUTE-GARONNE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/603b11b8-9a04-3ce4-ad2d-edd22cda9eb3",
+      "schema:legalName": "COMITE DEPARTEMENTAL DU TOURISME DE LA HAUTE-GARONNE",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7e256f44-e575-3603-adf0-4270986777dd",
+      "schema:email": [
+        "publics.jacobins@mairie-toulouse.fr"
+      ],
+      "schema:legalName": "COUVENT DES JACOBINS",
+      "schema:telephone": [
+        "+33 5 61 22 23 81"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.jacobins.toulouse.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/eb15fd1f-950f-313d-a5d7-249ff502e252",
+      "dc:description": {
+        "de": [
+          "Testen Sie Ihre Logik und Ihren Instinkt als Spürhund bei dieser spannenden Ermittlung im Herzen des Jakobinerklosters in Toulouse. Innerhalb eines begrenzten Zeitrahmens müssen Sie das Rätsel um das Verschwinden einer der Figuren lösen, indem Sie drei grundlegende Fragen beantworten: Wer, Wo, Wie und - für die Geübteren - Warum?\n\nStellen Sie Ihr Team zusammen oder schließen Sie sich einer Gruppe an, um das Geheimnis zu lüften und die Wahrheit herauszufinden! Sind Sie dieser Herausforderung gewachsen?"
+        ],
+        "en": [
+          "Come and test your logic and sleuthing instincts in this immersive investigation at the heart of Toulouse?s Jacobin Convent. In a limited time, you'll have to solve the enigma surrounding the disappearance of one of the characters by answering three fundamental questions: Who? Where? How? and? for the more experienced, Why?\n\nForm your own team or join a group to solve the mystery and set the record straight! Are you up to the challenge?"
+        ],
+        "it": [
+          "Mettete alla prova il vostro senso della logica e il vostro istinto da investigatore durante questa indagine immersiva nel cuore del Convento dei Giacobini di Tolosa. In un tempo limitato, dovrete risolvere l'enigma della scomparsa di uno dei personaggi rispondendo a tre domande fondamentali: chi, dove, come e, per i più esperti, perché?\n\nMettete insieme la vostra squadra o unitevi a un gruppo per risolvere il mistero e mettere le cose in chiaro! Siete all'altezza della sfida?"
+        ],
+        "fr": [
+          "Venez testez votre sens logique et votre instinct de limier au cours de cette enquête immersive au cœur du Couvent des Jacobins de Toulouse. Dans un temps limité, il vous faudra résoudre l’énigme autour de la disparition d’un des personnages en répondant à trois questions fondamentales : Qui ? Où ? Comment ? et… pour les plus aguerris Pourquoi ?\n\nConstituez votre équipe ou greffez-vous à un groupe pour élucider le mystère et rétablir la vérité ! Saurez-vous à la hauteur de ce défi ?"
+        ],
+        "es": [
+          "Venga a poner a prueba su sentido de la lógica y su instinto de detective durante esta investigación inmersiva en el corazón del Convento de los Jacobinos de Toulouse. En un tiempo limitado, tendrá que resolver el enigma que rodea la desaparición de uno de los personajes respondiendo a tres preguntas fundamentales: ¿Quién? ¿Dónde? ¿Cómo? y? para los más experimentados, ¿Por qué?\n\nForma tu propio equipo o únete a un grupo para resolver el misterio y dejar las cosas claras ¿Estás preparado para el reto?"
+        ],
+        "nl": [
+          "Kom en test je gevoel voor logica en je speurinstinct tijdens dit meeslepende onderzoek in het hart van het Jacobijnenklooster in Toulouse. In een beperkte tijd moet je het raadsel rond de verdwijning van een van de personages oplossen door drie fundamentele vragen te beantwoorden: Wie? Waar? Hoe? en? voor de meer ervaren, Waarom?\n\nStel je eigen team samen of sluit je aan bij een groep om het mysterie op te lossen en de zaken recht te zetten! Ga jij de uitdaging aan?"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/38be6946-f2cd-3645-803a-af63cdf06643",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4d0ea661-a53b-3706-8559-63ae6e56b252",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/51cf9a1b-ce53-3adc-8ccc-4eed24492eeb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6edc6e9d-884c-399a-8186-262f2c3e2445",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/771da61f-aaff-3537-afa9-6db937160ff7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8e216e51-edf3-3a3d-99ba-873f1f07248c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/94b389b1-2ee6-3ae1-ac39-5cbfad4bc0db",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/96e9601f-e721-3870-b9ea-e785cc47dcad",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a15697a7-4725-387a-b21d-9d7b11815fd1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eadf4efc-0724-3d54-81a5-e9e7f943f9b3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein schreckliches Drama hat sich im Jakobinerkloster ereignet und die Lösung dieses Geheimnisses liegt auf deinen Schultern und denen deines Teams!"
+        ],
+        "en": [
+          "A terrible tragedy has occurred at the Jacobins convent, and solving the mystery rests on the shoulders of you and your team!"
+        ],
+        "it": [
+          "Una terribile tragedia si è verificata nel convento dei Giacobini e la soluzione del mistero è affidata a voi e alla vostra squadra!"
+        ],
+        "fr": [
+          "Un drame terrible s’est produit au couvent des Jacobins et la résolution de ce mystère repose sur vos épaules et celle de votre équipe !"
+        ],
+        "es": [
+          "Una terrible tragedia ha ocurrido en el convento de los Jacobinos y resolver el misterio depende de ti y de tu equipo"
+        ],
+        "nl": [
+          "Er heeft zich een vreselijke tragedie afgespeeld in het Jacobijnenklooster en het oplossen van het mysterie rust op de schouders van jou en je team!"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Unusual",
+      "@type": [
+        "Theme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Ungewöhnlich"
+        ],
+        "pt": [
+          "Insólito"
+        ],
+        "en": [
+          "Unusual"
+        ],
+        "it": [
+          "Insolito"
+        ],
+        "fr": [
+          "Insolite"
+        ],
+        "nl": [
+          "Ongewoon"
+        ],
+        "es": [
+          "Insólito"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/79dd4465-bbce-35a4-857e-7d39f66f8430",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7e4aaa89-a8d2-3b0d-8db7-24927e64a9eb",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/85e109f3-9af7-3930-96b1-8552e4f18e90",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d8f9ed5a-fa5c-35e4-b893-3b21e78e82b1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dd0f3710-d961-3590-8136-4ae5586f349b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/789f11ac-a04d-3f46-bc1b-891f3bb876ef",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4c7e3848-303e-381a-89c4-d5fd2d84f118",
+          "schema:addressLocality": "Toulouse",
+          "schema:postalCode": "31000",
+          "schema:streetAddress": [
+            "Allée Maurice Prin",
+            "COUVENT DES JACOBINS",
+            "Cloître des Jacobins"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:31555",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Toulouse"
+              ],
+              "pt": [
+                "Toulouse"
+              ],
+              "en": [
+                "Toulouse"
+              ],
+              "it": [
+                "Toulouse"
+              ],
+              "fr": [
+                "Toulouse"
+              ],
+              "nl": [
+                "Toulouse"
+              ],
+              "es": [
+                "Toulouse"
+              ]
+            },
+            "insee": "31555",
+            "isPartOfDepartment": {
+              "@id": "kb:France7631",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Haute-Garonne"
+                ],
+                "pt": [
+                  "Haute-Garonne"
+                ],
+                "en": [
+                  "Haute-Garonne"
+                ],
+                "it": [
+                  "Haute-Garonne"
+                ],
+                "fr": [
+                  "Haute-Garonne"
+                ],
+                "nl": [
+                  "Haute-Garonne"
+                ],
+                "es": [
+                  "Haute-Garonne"
+                ]
+              },
+              "insee": "31",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/ff46b1fe-96a0-3473-ba64-651b4040d62b",
+        "schema:latitude": "43.6037086",
+        "schema:longitude": "1.4398824",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false
+    }
+  ],
+  "lastUpdate": "2024-11-08",
+  "lastUpdateDatatourisme": "2024-11-08T20:00:38.905Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/0b1c1c8c-ebb2-31ab-a88b-ef223253cad2",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/1831161b-cf57-3854-bd3a-bcd6cc70f698",
+          "schema:minPrice": [
+            "13"
+          ],
+          "schema:price": "13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e4680d41-46db-3336-989c-9606e0850b97",
+          "schema:minPrice": [
+            "6.5"
+          ],
+          "schema:price": "6.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ReducedRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Ermäßigter Tarif"
+                ],
+                "pt": [
+                  "Preço reduzido"
+                ],
+                "en": [
+                  "Reduced rate"
+                ],
+                "it": [
+                  "Prezzo ridotto"
+                ],
+                "fr": [
+                  "Tarif réduit"
+                ],
+                "es": [
+                  "Tarifa reducida"
+                ],
+                "nl": [
+                  "Gereduceerd tarief"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.fr/22a0b663-8a8f-346d-99fb-b5e024a55752",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2025-02-06",
+      "endTime": "21:00:00",
+      "startDate": "2025-02-06",
+      "startTime": "18:45:00"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8464efe9-50b3-30c4-8ebc-fb1f40f64039",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2025-03-27",
+      "endTime": "21:00:00",
+      "startDate": "2025-03-27",
+      "startTime": "18:45:00"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/aa26f27d-36ca-31f2-8935-0b0722ead578",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2025-03-06",
+      "endTime": "21:00:00",
+      "startDate": "2025-03-06",
+      "startTime": "18:45:00"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d86cd7e3-83e8-3a24-8a31-59eb385d260c",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2025-01-23",
+      "endTime": "21:00:00",
+      "startDate": "2025-01-23",
+      "startTime": "18:45:00"
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "@id": "https://data.datatourisme.fr/49/0a1a7c7e-b2b1-3bb8-b4a2-0be8c160333a",
+  "dc:identifier": "FMAPDL049V50HL4Q",
+  "schema:endDate": [
+    "2025-04-29"
+  ],
+  "schema:startDate": [
+    "2025-04-29"
+  ],
+  "@type": [
+    "schema:Event",
+    "CulturalEvent",
+    "EntertainmentAndEvent",
+    "PointOfInterest",
+    "ShowEvent"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "In Fortsetzung des Erfolgs der Stücke \"Lettre pour Élena\" und \"Le problème avec le rose\" schlägt die Tanzkompanie \"la Parenthèse\" eine neue Kreation vor, die in Koproduktion mit dem in Quebec ansässigen Petit Théâtre de Sherbrooke entstanden ist."
+    ],
+    "en": [
+      "Following on from the success of \"Lettre pour Élena\" and \"Le problème avec le rose\", the dance company \"la Parenthèse\" is offering a new creation in co-production with Quebec-based Le Petit Théâtre de Sherbrooke."
+    ],
+    "it": [
+      "Dopo il successo degli spettacoli \"Lettre pour Élena\" e \"Le problème avec le rose\", la compagnia di danza \"la Parenthèse\" propone una nuova creazione in coproduzione con Le Petit Théâtre de Sherbrooke con sede in Quebec."
+    ],
+    "fr": [
+      "Dans la continuité du succès rencontré par les spectacles \"Lettre pour Élena\" et \"Le problème avec le rose\", la compagnie de danse \"la Parenthèse\" propose une nouvelle création en coproduction avec Le Petit Théâtre de Sherbrooke basé au Québec."
+    ],
+    "es": [
+      "Tras el éxito de los espectáculos \"Lettre pour Élena\" y \"Le problème avec le rose\", la compañía de danza \"la Parenthèse\" propone una nueva creación en coproducción con Le Petit Théâtre de Sherbrooke, con sede en Quebec."
+    ],
+    "nl": [
+      "Na het succes van de voorstellingen \"Lettre pour Élena\" en \"Le problème avec le rose\" biedt het dansgezelschap \"la Parenthèse\" een nieuwe creatie in coproductie met Le Petit Théâtre de Sherbrooke uit Québec."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Le chat, la goutte d'eau et le frigo (titre provisoire)"
+    ]
+  },
+  "creationDate": "2024-09-25",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/459d8da4-4c61-35b3-b817-38e6ffaa213e",
+      "schema:email": [
+        "ledome@saumurvaldeloire.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 53 93 50 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://theatreledome.saumurvaldeloire.fr/la-saison"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/4095a9f6-301b-3f0b-9f15-77197ba89073",
+      "dc:description": {
+        "de": [
+          "Der Choreograf Christophe Garcia und die Autorin Érika Tremblay Roy wollen mit diesem Projekt vor allem ihre interdisziplinäre Forschung ausbauen. \"Durchfallen ... was für eine Angst! Wenn man ein Elternteil ist, muss man ein Top-Elternteil sein. Wenn man ein Kind ist, muss man ein Top-Kind sein. Aber nichts geschieht so, wie man es sich vorgestellt hat...\" Wie in einem verwirrenden Spiel, bei dem man weder das Ziel noch den Gewinn kennt, lassen uns vier Darsteller in das Innere von Familien eintauchen. Diese Kreation ist eine Einladung in eine schräge Welt, in der es Humor und viel Erlaubnis gibt, aber auch Intimes, Kleines und Sensibles.\n\nInterpreten: Mehdi Boumalki (Qc), Nina-Morgane Madelaine (Fr), Geneviève Saint Louis (Qc), Jonathan Sanchez (Fr).\n\nMusik: Ariane Bisson Mc-Lernon in Zusammenarbeit mit Mathieu Desy / Martin Lizotte (Qc)."
+        ],
+        "en": [
+          "Above all, this project is part of choreographer Christophe Garcia and author Érika Tremblay Roy?s desire to explore interdisciplinarity. \"Missing... what anguish! When you're a parent, you have to be a top parent. When you're a child, you have to be a top child. But nothing ever turns out the way you imagined? As in a confusing game where you don't know the goal or what you're winning, four performers take us inside families. This creation is an invitation into an offbeat universe where there is humor and plenty of permission, but also something intimate, small and sensitive.\n\nPerformers : Mehdi Boumalki (Qc), Nina-Morgane Madelaine (Fr), Geneviève Saint Louis (Qc), Jonathan Sanchez (Fr).\n\nMusic: Ariane Bisson Mc-Lernon in collaboration with Mathieu Desy / Martin Lizotte (Qc)."
+        ],
+        "it": [
+          "Questo progetto fa parte del desiderio del coreografo Christophe Garcia e della scrittrice Érika Tremblay Roy di esplorare l'interdisciplinarità. \"Fallire... che angoscia! Quando sei un genitore, devi essere un genitore eccellente. Quando sei un bambino, devi essere un bambino al top. Ma niente va mai come avevi immaginato? Come in una partita confusa in cui non si conosce l'obiettivo o la vincita, quattro interpreti ci portano all'interno delle famiglie. Questa creazione è un invito a entrare in un universo fuori dagli schemi, dove c'è umorismo e molta autorizzazione, ma anche qualcosa di intimo, piccolo e sensibile.\n\nInterpreti : Mehdi Boumalki (Qc), Nina-Morgane Madelaine (Fr), Geneviève Saint Louis (Qc), Jonathan Sanchez (Fr).\n\nMusica : Ariane Bisson Mc-Lernon in collaborazione con Mathieu Desy / Martin Lizotte (Qc)."
+        ],
+        "fr": [
+          "Ce projet s’inscrit avant tout dans le désir de creuser une recherche d’interdisciplinarité du chorégraphe Christophe Garcia et de l’autrice Érika Tremblay Roy. « Rater... quelle angoisse! Quand on est un parent, il faut être un top parent. Quand on est enfant, il faut être un top enfant. Pourtant, rien ne se passe jamais comme on l’avait imaginé… » Comme dans un jeu déroutant où on ne connait ni le but ni ce qu’on gagne, quatre interprètes nous plongent à l’intérieur de familles. Cette création est une invitation dans univers décalé où il y a de l’humour et beaucoup de permissions, mais aussi de l’intime, du petit, du sensible.\n\nInterprètes : Mehdi Boumalki (Qc), Nina-Morgane Madelaine (Fr), Geneviève Saint Louis (Qc), Jonathan Sanchez (Fr).\n\nMusique : Ariane Bisson Mc-Lernon en collaboration avec Mathieu Desy / Martin Lizotte (Qc)."
+        ],
+        "es": [
+          "Este proyecto forma parte del deseo del coreógrafo Christophe Garcia y la escritora Érika Tremblay Roy de explorar la interdisciplinariedad. \"Fracasar... ¡qué angustia! Cuando eres padre, tienes que ser un padre excelente. Cuando eres niño, tienes que ser el mejor. Pero nunca nada sale como lo habías imaginado.. Como en un juego confuso en el que no sabes la meta ni lo que ganas, cuatro intérpretes nos llevan al interior de las familias. Esta creación es una invitación a un universo fuera de lo común donde hay humor y mucho permiso, pero también algo íntimo, a pequeña escala y sensible.\n\nIntérpretes : Mehdi Boumalki (Qc), Nina-Morgane Madelaine (Fr), Geneviève Saint Louis (Qc), Jonathan Sanchez (Fr).\n\nMúsica : Ariane Bisson Mc-Lernon en colaboración con Mathieu Desy / Martin Lizotte (Qc)."
+        ],
+        "nl": [
+          "Dit project maakt deel uit van de wens van choreograaf Christophe Garcia en schrijfster Érika Tremblay Roy om interdisciplinariteit te verkennen. \"Falen... wat een angst! Als je een ouder bent, moet je een topouder zijn. Als je een kind bent, moet je een topkind zijn. Maar niets loopt zoals je het je had voorgesteld? Net als in een verwarrend spel waar je niet weet wat het doel is of wat je wint, nemen vier performers ons mee naar binnen in gezinnen. Deze creatie is een uitnodiging voor een onconventioneel universum met humor en veel toestemming, maar ook iets intiems, kleinschaligs en gevoeligs.\n\nUitvoerenden : Mehdi Boumalki (Qc), Nina-Morgane Madelaine (Fr), Geneviève Saint Louis (Qc), Jonathan Sanchez (Fr).\n\nMuziek : Ariane Bisson Mc-Lernon in samenwerking met Mathieu Desy / Martin Lizotte (Qc)."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/4bd6120b-830b-3b59-addc-eccc1a72a594",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6155bac6-e188-3db1-8ea6-71d74b2a7e59",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/64fc4d3c-3acf-358b-b1dc-f70943e35844",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a4ec9e04-5c17-3fe1-a0d5-fd69e319dafe",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/af8cb1a0-fa4a-3a7e-9470-093ceb93c611",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b7f3d3b9-e3b2-3d62-8c2e-607ec22d4416",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e3c7d009-7014-3c40-85a7-a4e5037eecfd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f68d3a3d-7f4b-3257-b6f7-3ec5664515b5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fb7710de-2af4-3693-ae89-3adf95b83c1f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fdfba013-2766-31a1-83ab-bc16a9d3bd28",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "In Fortsetzung des Erfolgs der Stücke \"Lettre pour Élena\" und \"Le problème avec le rose\" schlägt die Tanzkompanie \"la Parenthèse\" eine neue Kreation vor, die in Koproduktion mit dem in Quebec ansässigen Petit Théâtre de Sherbrooke entstanden ist."
+        ],
+        "en": [
+          "Following on from the success of \"Lettre pour Élena\" and \"Le problème avec le rose\", the dance company \"la Parenthèse\" is offering a new creation in co-production with Quebec-based Le Petit Théâtre de Sherbrooke."
+        ],
+        "it": [
+          "Dopo il successo degli spettacoli \"Lettre pour Élena\" e \"Le problème avec le rose\", la compagnia di danza \"la Parenthèse\" propone una nuova creazione in coproduzione con Le Petit Théâtre de Sherbrooke con sede in Quebec."
+        ],
+        "fr": [
+          "Dans la continuité du succès rencontré par les spectacles \"Lettre pour Élena\" et \"Le problème avec le rose\", la compagnie de danse \"la Parenthèse\" propose une nouvelle création en coproduction avec Le Petit Théâtre de Sherbrooke basé au Québec."
+        ],
+        "es": [
+          "Tras el éxito de los espectáculos \"Lettre pour Élena\" y \"Le problème avec le rose\", la compañía de danza \"la Parenthèse\" propone una nueva creación en coproducción con Le Petit Théâtre de Sherbrooke, con sede en Quebec."
+        ],
+        "nl": [
+          "Na het succes van de voorstellingen \"Lettre pour Élena\" en \"Le problème avec le rose\" biedt het dansgezelschap \"la Parenthèse\" een nieuwe creatie in coproductie met Le Petit Théâtre de Sherbrooke uit Québec."
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/2ed95223-f1f3-3dab-9698-129203adc3b9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/487b77f6-ddff-3871-920b-285a3921d8f1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/602ab98b-c542-3c2c-b33d-e19fcdff5d95",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/62b277e8-12ff-318d-8e21-248dc5d45a0c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6519d096-55f3-319d-b57d-b745a6343680",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/1ca948c0-adf3-3f26-ab18-b1397b802f14",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d436ab56-a36a-370a-99aa-beb6238cc261",
+          "schema:addressLocality": "Saumur",
+          "schema:postalCode": "49400",
+          "schema:streetAddress": [
+            "Place de la Bilange"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:49328",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saumur"
+              ],
+              "pt": [
+                "Saumur"
+              ],
+              "en": [
+                "Saumur"
+              ],
+              "it": [
+                "Saumur"
+              ],
+              "fr": [
+                "Saumur"
+              ],
+              "nl": [
+                "Saumur"
+              ],
+              "es": [
+                "Saumur"
+              ]
+            },
+            "insee": "49328",
+            "isPartOfDepartment": {
+              "@id": "kb:France5249",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Maine-et-Loire"
+                ],
+                "pt": [
+                  "Maine-et-Loire"
+                ],
+                "en": [
+                  "Maine-et-Loire"
+                ],
+                "it": [
+                  "Maine-et-Loire"
+                ],
+                "fr": [
+                  "Maine-et-Loire"
+                ],
+                "nl": [
+                  "Maine-et-Loire"
+                ],
+                "es": [
+                  "Maine-et-Loire"
+                ]
+              },
+              "insee": "49",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6306c1eb-98a7-33d3-b88d-50e6c9ac126d",
+        "schema:latitude": "47.260621",
+        "schema:longitude": "-0.076107",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2024-10-16",
+  "lastUpdateDatatourisme": "2024-10-17T03:22:07.57Z",
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.fr/eb7a3bc5-39e6-3239-b059-a1b60751716c",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2025-04-29",
+      "endTime": "21:25:00",
+      "startDate": "2025-04-29",
+      "startTime": "20:30:00"
+    }
+  ]
+}

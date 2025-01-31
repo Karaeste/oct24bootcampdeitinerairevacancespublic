@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinéraire thématique entre 2 villes</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- Leaflet Awesome Markers CSS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #map {
+            height: 600px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .ui-autocomplete {
+            max-height: 200px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+<h1>Itinéraire thématique entre 2 villes</h1>
+
+<!-- Input Form -->
+<form id="routeForm">
+    <label for="category">Catégorie :</label>
+    <select id="category" name="category" required>
+        <option value="">Loading categories...</option>
+    </select>
+    <br><br>
+    <label for="startCity">Ville de départ :</label>
+    <input type="text" id="startCity" name="startCity" placeholder="" required>
+    <br><br>
+    <label for="endCity">Ville d'arrivée :</label>
+    <input type="text" id="endCity" name="endCity" placeholder="" required>
+    <br><br>
+    <button type="submit">Obtenir un itinéraire</button>
+</form>
+
+<!-- Results -->
+<h2>Détails de l'itinéraire</h2>
+<pre id="routeResult"></pre>
+
+<!-- Map -->
+<h2>Carte</h2>
+<div id="map"></div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- jQuery UI -->
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<!-- Leaflet Awesome Markers JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+<script>
+    // Initialize the map
+    const map = L.map('map').setView([46.5385, 2.4287], 6);
+
+    // Add a tile layer (OpenStreetMap)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Define a list of colors for each area
+    const areaColors = [
+        'red', 'blue', 'green', 'orange', 'purple', 'darkred', 'cadetblue',
+        'pink', 'darkblue', 'darkgreen', 'lightblue', 'lightgreen', 'lightred',
+        'beige', 'black', 'white', 'gray', 'darkpurple', 'lightgray'
+    ];
+
+    // Fetch categories and populate the dropdown
+    async function fetchCategories() {
+        try {
+            const response = await fetch('/clustered_categories');
+            const categories = await response.json();
+            const categoryDropdown = document.getElementById('category');
+
+            // Clear the loading message
+            categoryDropdown.innerHTML = '';
+
+            // Add each category as an option
+            categories.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat.category;
+                option.textContent = `${cat.category}`;
+                categoryDropdown.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Error fetching categories:', error);
+            document.getElementById('category').innerHTML = '<option value="">Erreur lors du chargement des catégories</option>';
+        }
+    }
+
+    // Initialize autocomplete for city inputs
+    function initializeAutocomplete() {
+        $("#startCity, #endCity").autocomplete({
+            source: async function (request, response) {
+                const category = document.getElementById('category').value;
+                if (!category) {
+                    response([]); // No suggestions if no category is selected
+                    return;
+                }
+                // Show loading indicator
+                $(this).addClass('ui-autocomplete-loading');
+                try {
+                    const res = await fetch('/find_cities', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({category, query: request.term})
+                    });
+                    if (!res.ok) {
+                        throw new Error('Failed to fetch cities');
+                    }
+                    const cities = await res.json();
+                    // Transform the response into the format expected by autocomplete
+                    const suggestions = cities.map(city => ({
+                        label: city, // Displayed in the dropdown
+                        value: city   // Inserted into the input field
+                    }));
+                    response(suggestions);
+                } catch (error) {
+                    console.error('Error fetching cities:', error);
+                    response([{label: 'Erreur lors de la recherche des villes. Essayez à nouveau.', value: null}]);
+                } finally {
+                    // Hide loading indicator
+                    $(this).removeClass('ui-autocomplete-loading');
+                }
+            },
+            minLength: 2, // Start suggesting after 2 characters
+        });
+    }
+
+    // Clear city inputs when category changes
+    document.getElementById('category').addEventListener('change', function () {
+        document.getElementById('startCity').value = '';
+        document.getElementById('endCity').value = '';
+    });
+
+    // Fetch categories and initialize autocomplete when the page loads
+    fetchCategories().then(initializeAutocomplete);
+
+    async function submitForm(event) {
+        event.preventDefault();
+
+        // Get form inputs
+        const startCity = document.getElementById('startCity').value;
+        const endCity = document.getElementById('endCity').value;
+        const category = document.getElementById('category').value;
+
+        // Clear previous results and map markers
+        document.getElementById('routeResult').textContent = 'Chargement en cours...';
+        map.eachLayer(layer => {
+            if (layer instanceof L.Marker) {
+                map.removeLayer(layer);
+            }
+        });
+
+        try {
+            // Step 1: Find POI IDs for start and end cities
+            const startPoiResponse = await fetch('/find_poi', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({city: startCity, category})
+            });
+            const startPoiId = await startPoiResponse.json();
+
+            const endPoiResponse = await fetch('/find_poi', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({city: endCity, category})
+            });
+            const endPoiId = await endPoiResponse.json();
+
+            // Step 2: Get route between the two POIs
+            const routeResponse = await fetch('/route', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({start_poi_id: startPoiId, end_poi_id: endPoiId, category})
+            });
+            const route = await routeResponse.json();
+
+            // Step 3: Get POI details for each POI in the route
+            let result = '';
+            const poiMarkers = [];
+            for (let i = 0; i < route.length; i++) {
+                const area = route[i];
+                const areaColor = areaColors[i % areaColors.length]; // Cycle through colors
+                result += `Étape ${i + 1} (${areaColor}):\n`;
+                for (const poiId of area) {
+                    const poiResponse = await fetch(`/poi?id=${poiId}`);
+                    const poiData = await poiResponse.json();
+                    result += `- ${poiId}: ${poiData.name}, ${poiData.postal_code} ${poiData.city} (${poiData.latitude},${poiData.longitude})\n`;
+
+                    // Add POI to the map with a unique color for the area
+                    if (poiData.latitude && poiData.longitude) {
+                        const marker = L.AwesomeMarkers.icon({
+                            icon: 'info-sign', // Default icon
+                            markerColor: areaColor, // Assign color based on area
+                            prefix: 'fa' // Font Awesome prefix
+                        });
+                        const poiMarker = L.marker([poiData.latitude, poiData.longitude], {icon: marker})
+                            .addTo(map)
+                            .bindPopup(`<b>${poiData.name}</b><br>${poiData.city}, ${poiData.postal_code}`);
+                        poiMarkers.push(poiMarker); // Store the marker instance
+                    }
+                }
+            }
+
+            // Display results
+            document.getElementById('routeResult').textContent = result;
+
+            // Adjust map view to fit all markers
+            if (poiMarkers.length > 0) {
+                const group = new L.featureGroup(poiMarkers);
+                map.fitBounds(group.getBounds());
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            document.getElementById('routeResult').textContent = "Une erreur s'est produite.";
+        }
+    }
+
+    // Attach form submission handler
+    document.getElementById('routeForm').addEventListener('submit', submitForm);
+</script>
+</body>
+</html>

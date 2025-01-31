@@ -1,0 +1,53 @@
+
+###
+@TheApiAddress = http://127.0.0.1:5000
+
+### DB health
+GET {{TheApiAddress}}/db_health
+
+### Total number of POIs in the DB
+GET {{TheApiAddress}}/count_poi
+
+### List of categories with clusters
+GET {{TheApiAddress}}/clustered_categories
+
+### Find cities in a category
+POST {{TheApiAddress}}/find_cities
+Content-Type: application/json
+
+{
+  "query": "Castel",
+  "category": "Castle"
+}
+
+### Find a POI for given city and category
+POST {{TheApiAddress}}/find_poi
+Content-Type: application/json
+
+{
+  "city": "Strasbourg",
+  "category": "Museum"
+}
+
+### Find a POI for given city and category
+POST {{TheApiAddress}}/find_poi
+Content-Type: application/json
+
+{
+  "city": "Colmar",
+  "category": "Museum"
+}
+
+### Get route between 2 POIs for given category
+### This route goes from a museum in Strasbourg to another museum in Colmar and proposes other museums along the way
+POST {{TheApiAddress}}/route
+Content-Type: application/json
+
+{
+  "start_poi_id": "223013436",
+  "end_poi_id": "235007914",
+  "category": "Museum"
+}
+
+### Get POI details
+GET {{TheApiAddress}}/poi?id=223013436

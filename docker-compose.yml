@@ -1,0 +1,306 @@
+# Basic Airflow cluster configuration for CeleryExecutor with Redis and PostgreSQL.
+#
+# WARNING: This configuration is for local development. Do not use it in a production deployment.
+#
+# This configuration supports basic configuration using environment variables or an .env file
+# The following variables are supported:
+#
+# AIRFLOW_IMAGE_NAME           - Docker image name used to run Airflow.
+#                                Default: apache/airflow:master-python3.8
+# AIRFLOW_UID                  - User ID in Airflow containers
+#                                Default: 50000
+# AIRFLOW_GID                  - Group ID in Airflow containers
+#                                Default: 50000
+#
+# Those configurations are useful mostly in case of standalone testing/running Airflow in test/try-out mode
+#
+# _AIRFLOW_WWW_USER_USERNAME   - Username for the administrator account (if requested).
+#                                Default: airflow
+# _AIRFLOW_WWW_USER_PASSWORD   - Password for the administrator account (if requested).
+#                                Default: airflow
+# _PIP_ADDITIONAL_REQUIREMENTS - Additional PIP requirements to add when starting all containers.
+#                                Default: ''
+#
+# Feel free to modify this file to suit your needs.
+---
+
+x-shared-environment: &shared-environment
+  environment:
+    POSTGRES_HOST: ${POSTGRES_HOST}
+    POSTGRES_PORT: ${POSTGRES_PORT}
+    POSTGRES_USER: ${POSTGRES_USER}
+    POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    POSTGRES_DB: ${POSTGRES_DATATOURISME_DB}
+    NEO4J_URL: ${NEO4J_URL}
+    NEO4J_USER: ${NEO4J_USER}
+    NEO4J_PASSWORD: ${NEO4J_PASSWORD}
+
+x-airflow-common: &airflow-common
+  image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.10.4-python3.10}
+  environment: 
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}/${POSTGRES_AIRFLOW_DB}
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}/${POSTGRES_AIRFLOW_DB}
+    AIRFLOW__CELERY__BROKER_URL: redis://:@redis:${REDIS_PORT}/0
+    AIRFLOW__CORE__FERNET_KEY: ""
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+    AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    AIRFLOW__API__AUTH_BACKENDS: "airflow.api.auth.backend.session"
+    PYTHONPATH: "/opt/airflow/dags:/opt/airflow"
+    _PIP_ADDITIONAL_REQUIREMENTS: "-r /opt/airflow/utils/requirements.txt"
+
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags:ro
+    - airflow_logs:/opt/airflow/logs
+    - ./utils:/opt/airflow/utils:ro
+  user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
+  depends_on:
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:13
+    ports:
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_AIRFLOW_DB}
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_AIRFLOW_DB}"]
+      interval: 5s
+      retries: 5
+    restart: always
+
+  postgres-exporter:
+    image: prometheuscommunity/postgres-exporter
+    ports:
+      - 9187:9187
+    environment:
+      DATA_SOURCE_NAME: "postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_AIRFLOW_DB}?sslmode=disable"
+    depends_on:
+      - postgres
+    restart: always
+
+  redis:
+    image: redis:latest
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 30s
+      retries: 50
+    restart: always
+
+  redis-exporter:
+    image: oliver006/redis_exporter
+    ports:
+      - 9121:9121
+    environment:
+      REDIS_ADDR: "redis:${REDIS_PORT}"
+    depends_on:
+      - redis
+    restart: always
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - 8080:8080
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    environment:
+      <<: *airflow-common-env
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"',
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    environment:
+      <<: *airflow-common-env
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - 'celery --app airflow.executors.celery_executor.app inspect ping -d "celery@$${HOSTNAME}"'
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+    environment:
+      <<: *airflow-common-env
+
+  airflow-init:
+    <<: *airflow-common
+    command: version
+    entrypoint: >
+      bash -c "
+        airflow db migrate &&
+        airflow variables set POSTGRES_HOST ${POSTGRES_HOST} &&
+        airflow variables set POSTGRES_PORT ${POSTGRES_PORT} &&
+        airflow variables set POSTGRES_USER ${POSTGRES_USER} &&
+        airflow variables set POSTGRES_PASSWORD ${POSTGRES_PASSWORD} &&
+        airflow variables set POSTGRES_DB ${POSTGRES_DB} &&
+        airflow variables set POSTGRES_DATATOURISME_DB ${POSTGRES_DATATOURISME_DB} &&
+        airflow variables set REDIS_HOST ${REDIS_HOST} &&
+        airflow variables set REDIS_PORT ${REDIS_PORT} &&
+        airflow variables set URL_ARCHIVE ${URL_ARCHIVE} &&
+        airflow variables set NEO4J_USER ${NEO4J_USER} &&
+        airflow variables set NEO4J_PASSWORD ${NEO4J_PASSWORD} &&
+        airflow variables set NEO4J_URL ${NEO4J_URL} &&
+        airflow pools set clusters_pool 1 "Clusters Creation Pool"
+      "
+
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: "true"
+      _AIRFLOW_WWW_USER_CREATE: "true"
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-${AIRFLOW_USER}}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-${AIRFLOW_PASSWORD}}
+
+  flower:
+    <<: *airflow-common
+    command: celery flower
+    ports:
+      - 5555:5555
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:5555/"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  neo4j:
+    image: neo4j:5
+    environment:
+      NEO4J_AUTH: ${NEO4J_USER}/${NEO4J_PASSWORD}
+    ports:
+      - "${NEO4J_PORT}:${NEO4J_PORT}"
+      - "${NEO4J_PORT_2}:${NEO4J_PORT_2}"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD", "sh", "-c", "echo 'RETURN 1;' | cypher-shell -u ${NEO4J_USER} -p ${NEO4J_PASSWORD}"]
+      interval: 5s
+      retries: 10
+      start_period: 10s
+
+  webserver:
+    <<: *airflow-common
+    command: >
+      bash -c "
+        airflow db migrate &&
+        airflow users create --username ${AIRFLOW_USER} --firstname Admin --lastname User --role Admin --email admin@example.com --password ${AIRFLOW_PASSWORD} &&
+        exec airflow webserver
+      "
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: "true"
+      _AIRFLOW_WWW_USER_CREATE: "true"
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-${AIRFLOW_USER}}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-${AIRFLOW_PASSWORD}}
+
+  airflow-exporter:
+    image: pbweb/airflow-prometheus-exporter
+    restart: always
+    environment:
+        - "AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_AIRFLOW_DB}"
+        - "AIRFLOW_PROMETHEUS_LISTEN_ADDR=:9112"
+        - "AIRFLOW_PROMETHEUS_DATABASE_BACKEND=${POSTGRES_HOST}"
+        - "AIRFLOW_PROMETHEUS_DATABASE_HOST=${POSTGRES_HOST}"
+        - "AIRFLOW_PROMETHEUS_DATABASE_PORT=${POSTGRES_PORT}"
+        - "AIRFLOW_PROMETHEUS_DATABASE_USER=${POSTGRES_USER}"
+        - "AIRFLOW_PROMETHEUS_DATABASE_PASSWORD=${POSTGRES_PASSWORD}"
+        - "AIRFLOW_PROMETHEUS_DATABASE_NAME=${POSTGRES_AIRFLOW_DB}"
+    ports:
+        - "9112:9112"
+
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    restart: always
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - ${GRAFANA_PORT}:${GRAFANA_PORT}
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_USER}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - prometheus
+    restart: always
+
+  dataviz:
+    build:
+      context: .
+      dockerfile: ./dataviz/Dockerfile
+    ports:
+      - "8050:8050"
+    <<: *shared-environment
+    depends_on:
+      neo4j:
+        condition: service_healthy
+
+  api:
+    build:
+      context: .
+      dockerfile: ./api/Dockerfile
+    ports:
+      - "5000:5000"
+    <<: *shared-environment
+    depends_on:
+      postgres:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+
+  blackbox:
+    image: prom/blackbox-exporter:latest
+    privileged: true
+    volumes:
+      - ./monitoring/blackbox/blackbox.yml:/etc/blackbox_exporter/config.yml
+    ports:
+      - '9115:9115'
+
+volumes:
+  postgres-db-volume:
+  neo4j_data:
+  neo4j_logs:
+  airflow_logs:
+  grafana-storage:
+

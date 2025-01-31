@@ -1,0 +1,2212 @@
+{
+  "@id": "https://data.datatourisme.fr/33/ca746a35-db9a-3b3b-ae1c-d42aec8dbc6a",
+  "dc:identifier": "PCUMID031V50EYDF",
+  "@type": [
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Auf der Piste des Géants im Stadtteil Montaudran in Toulouse hat die Halle de La Machine ihre Türen geöffnet und zeigt die Showmaschinen der Compagnie La Machine und von François Delaroziere."
+    ],
+    "en": [
+      "On the Piste des Géants, in the Montaudran district of Toulouse, the Halle de La Machine has opened its doors and presents the show machines of the La Machine Company and François Delaroziere."
+    ],
+    "it": [
+      "Sulla Piste des Géants, nel quartiere Montaudran di Tolosa, la Halle de La Machine ha aperto le sue porte e presenta le macchine performanti della La Machine Company e di François Delaroziere."
+    ],
+    "fr": [
+      "Sur la Piste des Géants, dans le quartier de Montaudran à Toulouse, la Halle de La Machine a ouvert ses portes et présente les machines de spectacle de la Compagnie La Machine et de François Delaroziere."
+    ],
+    "nl": [
+      "Op de Piste des Géants, in de wijk Montaudran in Toulouse, heeft de Halle de La Machine haar deuren geopend en presenteert de performance machines van de firma La Machine en François Delaroziere."
+    ],
+    "es": [
+      "En la Piste des Géants, en el barrio de Montaudran de Toulouse, el Halle de La Machine ha abierto sus puertas y presenta las máquinas de rendimiento de la empresa La Machine y de François Delaroziere."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LA HALLE DE LA MACHINE"
+    ]
+  },
+  "owl:sameAs": [
+    "http://www.wikidata.org/entity/Q109038586"
+  ],
+  "COVID19SpecialMeasures": {
+    "de": [
+      "Obligatorischer Impfpass und geltende Gesundheitsmaßnahmen.\nFür weitere Informationen wenden Sie sich bitte an die Website."
+    ],
+    "en": [
+      "Compulsory vaccination pass and sanitary measures in force.\nFor more information, please contact the site."
+    ],
+    "it": [
+      "Vaccinazioni obbligatorie e misure sanitarie in vigore.\nPer ulteriori informazioni, contattare il sito."
+    ],
+    "fr": [
+      "Pass vaccinal obligatoire et mesures sanitaires en vigueur.\nPour plus d'informations, veuillez contacter le site."
+    ],
+    "nl": [
+      "Verplichte vaccinatie en geldende gezondheidsmaatregelen.\nNeem voor meer informatie contact op met de site."
+    ],
+    "es": [
+      "Vacunación obligatoria y medidas sanitarias en vigor.\nPara más información, póngase en contacto con el sitio."
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Espagnol"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/603b11b8-9a04-3ce4-ad2d-edd22cda9eb3",
+    "schema:legalName": "COMITE DEPARTEMENTAL DU TOURISME DE LA HAUTE-GARONNE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/603b11b8-9a04-3ce4-ad2d-edd22cda9eb3",
+      "schema:legalName": "COMITE DEPARTEMENTAL DU TOURISME DE LA HAUTE-GARONNE",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/158022cc-3802-38a2-b623-79a8dd72b433",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://billetterie.halledelamachine.fr/index-css5-halledelamachine-pg1.html"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/000f0c82-4ca9-37d7-bccd-b447085f604a",
+      "schema:email": [
+        "contact@halledelamachine.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 32 10 89 07"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.halledelamachine.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/158022cc-3802-38a2-b623-79a8dd72b433",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://billetterie.halledelamachine.fr/index-css5-halledelamachine-pg1.html"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/4cd4beb4-2816-3824-90d2-e466fb1d4b24",
+      "dc:description": {
+        "de": [
+          "Weit entfernt von einem Museum mit einer starren Szenografie, näher an einem Straßentheater als an einer Dauerausstellung, lädt Sie der Besuch der Halle de La Machine zu einer Reise durch die Märchen und Legenden dieser außergewöhnlichen Mechanismen ein. Von der kleinsten Maschine, die in eine Hand passt, bis zur größten, die mehrere Tonnen wiegen kann, erzählt jede Maschine eine Geschichte, bewegt durch ihre Bewegung und ihre Identität.\n\nLassen Sie sich vom Team der \"Véritables Machinistes\", die jeden Tag im Einsatz sind, um die Maschinen vor Ihren Augen zum Leben zu erwecken, führen, an Bord nehmen und in Staunen versetzen.\n\nDie Halle von La Machine beherbergt den Minotaurus, der speziell für Toulouse geschaffen wurde und während der Aufführung Le Gardien du Temple im November 2018 enthüllt wurde. Täglich nimmt diese monumentale und einzigartige Maschine Zuschauer auf ihrem Rücken mit auf einzigartige Reisen durch das Viertel Montaudran.\n\nEin kulturelles Programm, ein Bar-Restaurant, ein Geschäft und Räume für Begegnungen mit dem Publikum sind mögliche Zugänge, um die Halle de La Machine und ihre aus Holz und Stahl gefertigten Bewohner zu entdecken."
+        ],
+        "en": [
+          "Far from a museum with a fixed scenography, closer to a street show than a permanent exhibition, the visit of the Halle de La Machine invites you to travel through the tales and legends of these extraordinary machines. From the smallest one that can be held in the hand to the largest one that can weigh several tons, each machine tells a story, and is moved by its movement and its identity.\n\nLet yourself be guided, embarked, amazed by the team of the True Machinists, every day at work to give life to the machines before your eyes.\n\nThe Halle de La Machine is home to the Minotaur, created especially for Toulouse and unveiled during the show Le Gardien du Temple in November 2018. On a daily basis, this monumental and singular machine takes the public on its back for unique journeys in the Montaudran district.\n\nA cultural program, a bar-restaurant, a shop and spaces for meetings with the public are all possible entrances to come and discover the Halle de La Machine and its occupants made of wood and steel."
+        ],
+        "it": [
+          "Lontano da un museo con una scenografia fissa, più vicino a uno spettacolo di strada che a una mostra permanente, la visita della Halle de La Machine invita a viaggiare attraverso i racconti e le leggende di queste macchine straordinarie. Dalla più piccola che può essere tenuta in mano alla più grande che può pesare diverse tonnellate, ogni macchina racconta una storia e commuove per il suo movimento e la sua identità.\n\nLasciatevi guidare, imbarcare e stupire dal team di Veri Macchinisti, che ogni giorno lavorano per dare vita alle macchine davanti ai vostri occhi.\n\nLa Halle de La Machine ospita il Minotauro, creato appositamente per Tolosa e svelato durante lo spettacolo Le Gardien du Temple nel novembre 2018. Ogni giorno, questa macchina monumentale e singolare porta il pubblico sul suo dorso per viaggi unici nel quartiere di Montaudran.\n\nUn programma culturale, un bar-ristorante, un negozio e spazi per incontri con il pubblico sono tutti modi possibili per scoprire la Halle de La Machine e i suoi occupanti in legno e acciaio."
+        ],
+        "fr": [
+          "Loin du musée à la scénographie figée, plus proche du spectacle de rue que d’une exposition permanente, la visite de la Halle de La Machine vous invite à voyager à travers les contes et légendes de ces extraordinaires mécaniques. De la plus petite tenant dans la main à la plus grande pouvant peser plusieurs tonnes, chaque machine raconte une histoire, émeut par son mouvement et son identité.\n\nLaissez-vous guider, embarquer, émerveiller par l’équipe des Véritables Machinistes, tous les jours à la manœuvre pour donner vie aux machines sous vos yeux.\n\nLa Halle de La Machine abrite le Minotaure, créé spécialement pour Toulouse et dévoilé lors du spectacle Le Gardien du Temple en novembre 2018. Au quotidien, cette machine monumentale et singulière embarque du public sur son dos pour des voyages uniques dans le quartier de Montaudran.\n\nUne programmation culturelle, un bar-restaurant, une boutique et des espaces de rencontres avec les publics sont autant d’entrées possibles pour venir découvrir la Halle de La Machine et ses occupants faits de bois et d’acier."
+        ],
+        "nl": [
+          "Verre van een museum met een vaste scenografie, dichter bij een straatshow dan bij een permanente tentoonstelling, nodigt het bezoek van de Halle de La Machine u uit tot een reis door de verhalen en legendes van deze buitengewone machines. Van de kleinste die in de hand kan worden gehouden tot de grootste die enkele tonnen kan wegen, elke machine vertelt een verhaal en ontroert door zijn beweging en identiteit.\n\nLaat u leiden, inschepen en verbazen door het team van True Machinists, dat elke dag aan het werk is om de machines voor uw ogen tot leven te wekken.\n\nDe Halle de La Machine herbergt de Minotaurus, speciaal voor Toulouse gemaakt en onthuld tijdens de show Le Gardien du Temple in november 2018. Elke dag neemt deze monumentale en bijzondere machine het publiek op zijn rug mee voor unieke tochten in de wijk Montaudran.\n\nEen cultureel programma, een bar-restaurant, een winkel en ruimtes voor ontmoetingen met het publiek zijn allemaal mogelijke ingangen om de Halle de La Machine en haar bewoners van hout en staal te ontdekken."
+        ],
+        "es": [
+          "Lejos de ser un museo con una escenografía fija, más cerca de un espectáculo callejero que de una exposición permanente, la visita del Halle de La Machine invita a viajar a través de las historias y leyendas de estas extraordinarias máquinas. Desde la más pequeña que se puede sostener en la mano hasta la más grande que puede pesar varias toneladas, cada máquina cuenta una historia y conmueve por su movimiento e identidad.\n\nDéjese guiar, embarcar y asombrar por el equipo de True Machinists, que trabaja cada día para dar vida a las máquinas ante sus ojos.\n\nEl Halle de La Machine alberga el Minotauro, creado especialmente para Toulouse y desvelado durante el espectáculo Le Gardien du Temple en noviembre de 2018. Cada día, esta monumental y singular máquina lleva al público a sus espaldas para realizar recorridos únicos en el barrio de Montaudran.\n\nUn programa cultural, un bar-restaurante, una tienda y espacios de encuentro con el público son las formas posibles de descubrir el Halle de La Machine y sus ocupantes de madera y acero."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0a2498bb-e25b-3828-8f18-efa07ba97974",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1343d118-22e1-3ca3-b5ec-b836ee8f47c1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/22890db5-3840-350f-b493-75b68b40c748",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/484314cf-006c-32f7-a443-610f30e35bdc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/56203402-9f87-3af0-a581-a7c6740d49fb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6486b7bc-7f5f-387c-8df1-fa9ef5f15fb7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a1dd0bad-0989-3673-94f6-3ee4f1bb8e21",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bd51cfb8-5985-3296-89f7-2ccea8ae8de7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d3b6f751-9754-3032-937e-7bb144b819f0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ef94933e-c650-33f1-b0c2-706d4cb9061d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Auf der Piste des Géants im Stadtteil Montaudran in Toulouse hat die Halle de La Machine ihre Türen geöffnet und zeigt die Showmaschinen der Compagnie La Machine und von François Delaroziere."
+        ],
+        "en": [
+          "On the Piste des Géants, in the Montaudran district of Toulouse, the Halle de La Machine has opened its doors and presents the show machines of the La Machine Company and François Delaroziere."
+        ],
+        "it": [
+          "Sulla Piste des Géants, nel quartiere Montaudran di Tolosa, la Halle de La Machine ha aperto le sue porte e presenta le macchine performanti della La Machine Company e di François Delaroziere."
+        ],
+        "fr": [
+          "Sur la Piste des Géants, dans le quartier de Montaudran à Toulouse, la Halle de La Machine a ouvert ses portes et présente les machines de spectacle de la Compagnie La Machine et de François Delaroziere."
+        ],
+        "nl": [
+          "Op de Piste des Géants, in de wijk Montaudran in Toulouse, heeft de Halle de La Machine haar deuren geopend en presenteert de performance machines van de firma La Machine en François Delaroziere."
+        ],
+        "es": [
+          "En la Piste des Géants, en el barrio de Montaudran de Toulouse, el Halle de La Machine ha abierto sus puertas y presenta las máquinas de rendimiento de la empresa La Machine y de François Delaroziere."
+        ]
+      }
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/6e866798-cae5-351c-9e8d-963661217e60",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_AccueilVelo",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Accueil Vélo"
+          ],
+          "pt": [
+            "Accueil Vélo"
+          ],
+          "en": [
+            "Accueil Vélo"
+          ],
+          "it": [
+            "Accueil Vélo"
+          ],
+          "fr": [
+            "Accueil Vélo"
+          ],
+          "nl": [
+            "Accueil Vélo"
+          ],
+          "es": [
+            "Accueil Vélo"
+          ]
+        },
+        "isCompliantWith": [
+          "PlaceOfInterest"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/2b0ff703-ced6-3109-a477-035e8d31531f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/67c56ca4-1f7d-3d7b-8f67-12cd129e07e4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/967e3f21-37bf-32f2-ac6b-4449aa817f8b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/daf738b1-7cef-30fd-b0ff-378b1df46e34",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fc9ff8a3-0af8-3a52-bdb8-fc38b21521a9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/605bcc43-fecd-3909-9784-1965a9483572",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2120f14c-c7d3-31cb-8501-776961604561",
+          "schema:addressLocality": "Toulouse",
+          "schema:postalCode": "31400",
+          "schema:streetAddress": [
+            "3 Avenue de l'Aérodrome de Montaudran"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:31555",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Toulouse"
+              ],
+              "pt": [
+                "Toulouse"
+              ],
+              "en": [
+                "Toulouse"
+              ],
+              "it": [
+                "Toulouse"
+              ],
+              "fr": [
+                "Toulouse"
+              ],
+              "nl": [
+                "Toulouse"
+              ],
+              "es": [
+                "Toulouse"
+              ]
+            },
+            "insee": "31555",
+            "isPartOfDepartment": {
+              "@id": "kb:France7631",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Haute-Garonne"
+                ],
+                "pt": [
+                  "Haute-Garonne"
+                ],
+                "en": [
+                  "Haute-Garonne"
+                ],
+                "it": [
+                  "Haute-Garonne"
+                ],
+                "fr": [
+                  "Haute-Garonne"
+                ],
+                "nl": [
+                  "Haute-Garonne"
+                ],
+                "es": [
+                  "Haute-Garonne"
+                ]
+              },
+              "insee": "31",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/57f78d57-9f57-35de-8d16-f521002b74a9",
+        "schema:latitude": "43.57233",
+        "schema:longitude": "1.47871",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/020f1507-e8f9-38d4-8501-5419f703c407",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/077bc436-fdcb-35d0-8ba8-dd507c008ab1",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-08T00:00:00",
+          "schema:validThrough": "2024-05-19T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/08a84ca9-99b3-38b3-bdff-7506ad32b9a7",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-27T00:00:00",
+          "schema:validThrough": "2024-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/296e1992-c90b-30c0-bee6-5c6ccc659324",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-08T00:00:00",
+          "schema:validThrough": "2024-05-19T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2f8d95cf-a3b3-3be7-b49a-4fa599a293e4",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3816e1d0-46b7-3a77-878e-1ee037ce2f10",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-07-05T00:00:00",
+          "schema:validThrough": "2024-09-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/41f90652-5e7f-37ab-b4a5-78092aece576",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-08T00:00:00",
+          "schema:validThrough": "2024-05-19T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/497adafe-fd86-339c-bb47-e8804a813fe3",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4b280c1e-1e8c-3198-9eb2-37d5182a42a7",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-07-05T00:00:00",
+          "schema:validThrough": "2024-09-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5c0e1514-7e5b-394b-a55a-0a7b7a3020cf",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-08T00:00:00",
+          "schema:validThrough": "2024-05-19T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5fbbfba8-28e6-3952-a979-4e5e9b193df8",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/687b8db8-efd8-30bd-9e69-95be2e375554",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-27T00:00:00",
+          "schema:validThrough": "2024-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6f78b35c-b7c5-3eb1-9ebe-f699c249c01d",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7a35aad5-f78f-3812-9775-aaf76402d421",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-08T00:00:00",
+          "schema:validThrough": "2024-05-19T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8db798c6-789e-39bd-9364-fab6057823d0",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/94d4d89b-cff7-39d6-abdb-9929633701ad",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-27T00:00:00",
+          "schema:validThrough": "2024-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9a1e2a62-c903-3204-a0c7-a637ee23ff7f",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-07-05T00:00:00",
+          "schema:validThrough": "2024-09-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a53b05de-d48c-3746-b047-17035dc7711d",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a96a9d58-6905-36ab-9f05-8931fb59546c",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-27T00:00:00",
+          "schema:validThrough": "2024-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b23ed995-d3ca-3b2a-a21b-1517ca861ead",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-27T00:00:00",
+          "schema:validThrough": "2024-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b25b4cff-496f-3e61-b572-b1e87693a08e",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b6f147ed-907a-32ef-a3ac-3a004580337a",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-07-05T00:00:00",
+          "schema:validThrough": "2024-09-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ba7a6390-0494-335a-a3e8-9958bf68f9cb",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-07-05T00:00:00",
+          "schema:validThrough": "2024-09-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c5c08327-67a8-3e4b-8837-47bed9d1b4d4",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cd0f2d0e-ec7d-3650-b59d-8383b582305f",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cf072f74-4fce-32b4-985c-f3c0fc6b37b3",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-07-05T00:00:00",
+          "schema:validThrough": "2024-09-01T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d219c0ab-b49f-30bc-a298-51743617da88",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-08T00:00:00",
+          "schema:validThrough": "2024-05-19T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d42fb4a8-c031-34c2-8c41-d73d0e1d4753",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e7b1f7dd-2681-37ba-b5f7-e0d7ffafb21d",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eb1771bb-d2c8-359f-963f-e8adfb822c8c",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-20T00:00:00",
+          "schema:validThrough": "2024-05-26T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ec28e928-b2cd-3ac1-99cb-12d03c4077c8",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-05-27T00:00:00",
+          "schema:validThrough": "2024-07-04T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ef0eb28b-534b-3e91-905b-82e0502b6132",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2024-04-01T00:00:00",
+          "schema:validThrough": "2024-04-07T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2024-10-28",
+  "lastUpdateDatatourisme": "2024-10-31T21:01:40.43Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/51670caa-0e9d-3415-8df5-e91c23fa5001",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/46039cd6-814e-329b-95c8-d9b7ba85adca",
+          "schema:maxPrice": [
+            "20"
+          ],
+          "schema:minPrice": [
+            "11"
+          ],
+          "schema:price": "11",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4d5148d2-bdee-3c7d-8db3-2eb81fee58a5",
+          "schema:maxPrice": [
+            "14.5"
+          ],
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ReducedRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Ermäßigter Tarif"
+                ],
+                "pt": [
+                  "Preço reduzido"
+                ],
+                "en": [
+                  "Reduced rate"
+                ],
+                "it": [
+                  "Prezzo ridotto"
+                ],
+                "fr": [
+                  "Tarif réduit"
+                ],
+                "es": [
+                  "Tarifa reducida"
+                ],
+                "nl": [
+                  "Gereduceerd tarief"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a9a3b71d-5201-3fc2-b759-f615b0b9eb78",
+          "schema:maxPrice": [
+            "10"
+          ],
+          "schema:minPrice": [
+            "5.5"
+          ],
+          "schema:price": "5.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ReducedRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Ermäßigter Tarif"
+                ],
+                "pt": [
+                  "Preço reduzido"
+                ],
+                "en": [
+                  "Reduced rate"
+                ],
+                "it": [
+                  "Prezzo ridotto"
+                ],
+                "fr": [
+                  "Tarif réduit"
+                ],
+                "es": [
+                  "Tarifa reducida"
+                ],
+                "nl": [
+                  "Gereduceerd tarief"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/da8aedee-ad24-39f1-8aca-3afdf53cb777",
+          "schema:maxPrice": [
+            "14.5"
+          ],
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ecb1597a-a2c9-3d3d-982b-b27057185123",
+          "schema:maxPrice": [
+            "10"
+          ],
+          "schema:minPrice": [
+            "5.5"
+          ],
+          "schema:price": "5.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}
