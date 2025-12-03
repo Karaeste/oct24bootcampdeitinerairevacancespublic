@@ -1,16 +1,25 @@
+## 📊 Slides de présentation
 
-### Branche 'main'
-[![Python Unit Tests](https://github.com/Karaeste/oct24bootcampdeitinerairedevacances/actions/workflows/python-unit-tests.yml/badge.svg?branch=main)](https://github.com/Karaeste/oct24bootcampdeitinerairedevacances/actions/workflows/python-unit-tests.yml)
+> Projet Data Engineering — Itinéraire de Vacances  
+> Backend Python • API REST • Data Pipelines • Monitoring
 
-# Projet Itinéraire vacance réalisé lors de ma formation Data Engineer chez DataScientest 
-Nous étions 3 sur ce projet:
-- https://github.com/eworkshop
-- https://github.com/Oaz
-- https://github.com/Karaeste
+<div align="center">
 
-Objectif du projet:
-- L’objectif du projet est la création d’une application permettant de
-proposer un itinéraire selon certains critères.
-- L’utilisateur de l’application choisit des zones / points d’intérêt à visiter
-lors de son prochain voyage, lui propose un itinéraire détaillé
-optimisant son temps de voyage et de séjour.
+  <img src="documentation/images/slide_1.png" width="600"><br><br>
+  <img src="documentation/images/slide_2.png" width="600"><br><br>
+  <img src="documentation/images/slide_3.png" width="600"><br><br>
+  <img src="documentation/images/slide_4.png" width="600"><br><br>
+  <img src="documentation/images/slide_5.png" width="600"><br><br>
+  <img src="documentation/images/slide_6.png" width="600"><br><br>
+  <img src="documentation/images/slide_7.png" width="600"><br><br>
+  <img src="documentation/images/slide_8.png" width="600"><br><br>
+  <img src="documentation/images/slide_9.png" width="600"><br><br>
+  <img src="documentation/images/slide_10.png" width="600"><br><br>
+  <img src="documentation/images/slide_11.png" width="600"><br><br>
+  <img src="documentation/images/slide_12.png" width="600"><br><br>
+  <img src="documentation/images/slide_13.png" width="600"><br><br>
+  <img src="documentation/images/slide_14.png" width="600"><br><br>
+  <img src="documentation/images/slide_15.png" width="600"><br><br>
+  <img src="documentation/images/slide_16.png" width="600"><br><br>
+  <img src="documentation/images/slide_17.png" width="600">
+</div>
